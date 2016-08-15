@@ -1,0 +1,34 @@
+{
+  "name": "amrsoliman/assets-cdn",
+  "description": "Easily load your assets from a CDN when on production.",
+  "keywords": [
+    "cdn", "s3", "laravel", "assets"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Giordano Bruno d'Elia",
+      "email": "gdelia@thrustdivision.com"
+    },
+    {
+      "name": "Amr Soliman",
+      "email": "asoliman@hsoub.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "5.1.x",
+    "illuminate/console": "5.1.x",
+    "illuminate/filesystem": "5.1.x"
+  },
+  "autoload": {
+    "psr-4": {
+      "AmrSoliman\\AssetsCdn\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
