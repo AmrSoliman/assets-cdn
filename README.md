@@ -6,7 +6,7 @@ Add the following require to your `composer.json` file:
 
 	"require": {
 		...
-		"thrustdivision/assets-cdn": "1.*"
+		"amrsoliman/assets-cdn": "1.*"
 	},
 	...
     "post-install-cmd": [
@@ -16,7 +16,7 @@ Add the following require to your `composer.json` file:
 
 Then run `composer update`
 
-Add `"ThrustDivision\AssetsCdn\AssetsCdnServiceProvider",` to the list of providers in `config/app.php`.
+Add `"AmrSoliman\AssetsCdn\AssetsCdnServiceProvider",` to the list of providers in `config/app.php`.
 
 Run `php artisan vendor:publish`
 
